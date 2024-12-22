@@ -1,0 +1,236 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #0F2D6B;
+
+}
+
+
+
+.image1 {
+    width: 419px;
+    height: 114px;
+    padding: 40px;
+
+}
+/* 
+.box {
+    
+    
+}
+
+#para {
+    width: 400px;
+    height: 20px;
+    font-family: Gilroy-SemiBold;
+    font-size: 40px;
+    position: relative;
+    left: 60px;
+    color: #FFFFFF;
+}
+
+.image2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 90px;
+
+}
+
+.container {
+    display: flex;
+    gap: 100px;
+    background-color: #0F2D6B;
+    width: 100%;
+    height: auto;
+} */
+
+
+.logo1 section {
+    display: flex;
+    position: relative;
+    top: 200px;
+    border: 0.3px solid;
+    border-radius: 5px;
+    max-width: 400px;
+    background-color:#0a2760;
+    border-style: none;
+    margin: 10px;
+}
+
+
+.logo2 button {
+    list-style: none;
+    position: relative;
+    top: 300px;
+    padding: 10px 150px;
+    background-color: #1A4FBA;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo3 {
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 400px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px 100px;
+    gap: 16px;
+    border: 1px solid;
+    max-width: fit-content;
+    margin:10px ;
+    background-color: #072157;
+
+}
+
+.logo3 a {
+    color: #C1B6B6;
+    text-decoration: none;
+}
+.logo3 a:hover {
+    color: #1A4FBA;
+}
+.logo4 {
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 400px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px 91px;
+    gap: 16px;
+    border: 1px solid;
+    max-width: fit-content;
+    margin:10px;
+    background-color: #072157;
+
+}
+
+.logo4 a {
+    color: #C1B6B6;
+    text-decoration: none;
+}
+.logo4 a:hover {
+    color: #1A4FBA;
+}
+
+
+.logo5 {
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 400px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px 100px;
+    gap: 16px;
+    border: 1px solid;
+    max-width: fit-content;
+    margin:10px ;
+    background-color: #072157;
+    
+}
+
+.logo5 a {
+    color: #C1B6B6;
+    text-decoration: none;
+}
+.logo5 a:hover {
+    color: #1A4FBA;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding-right : 20px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .image2 {
+        display: none;
+    }
+    .image1{
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    #para {
+        font-size: 18px;
+    }
+
+    .logo3, .logo4, .logo5 {
+        align-items: center;
+        padding: 1px 40px;
+    }
+
+    .logo3 img a, .logo4 img a, .logo5 img a {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+}
+
+.logo1 section, .logo2, .logo3, .logo4, .logo5 {
+    margin-top: 15px;
+}
+
+input {
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    padding: 10px 90px;
+    color: white;
+    width: auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#para {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.image2 img {
+    width: 100%;
+    height: auto;
+}
